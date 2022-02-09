@@ -1,0 +1,158 @@
+.product {
+  margin: 50px 50px;
+  width: 250px;
+  height: auto;
+  border: 1px solid rgb(109, 199, 211);
+}
+
+.product-image {
+  width: 178px;
+  height: 230px;
+  /* margin: 25px; */
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.product-name {
+  color: rgb(73, 73, 73);
+}
+
+.product-meta {
+  margin-top: 0;
+  padding: 0;
+}
+
+.product-price {
+  color: rgb(238, 163, 0);
+}
+
+a.product-link {
+  text-decoration: none;
+}
+
+.product:hover {
+  border: 1px solid #343a40;
+}
+
+.welcome {
+  /* background-color: #b1b1b1; */
+  /* background-color: rgb(109, 211, 109); */
+  background-color: rgb(203, 216, 223);
+
+  padding-bottom: 20px;
+}
+
+.product-photo-container {
+  border-right: 2px solid #343a40;
+  padding: 100px;
+}
+
+.product-detail-container {
+  padding: 100px;
+}
+
+.buynow {
+  margin-left: 20px;
+}
+
+.cart-product-image {
+  height: 100px;
+  width: 80px;
+  margin-left: 50px;
+}
+
+.cart-item {
+  border: 1px solid rgb(134, 134, 134);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-item-child {
+  align-self: center;
+}
+
+.quantity-input {
+  width: 50px;
+}
+
+.cart-btn {
+  margin-bottom: 5px;
+}
+
+.right {
+  float: right;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: end;
+}
+
+.cart-total-item {
+  margin: 20px;
+}
+
+.jumbotron {
+  height: 120px;
+  padding: 10px;
+  margin-bottom: 0;
+  /* background-color: rgb(109, 211, 109); */
+}
+.jumbotron-checkout {
+  height: 100vh;
+  padding: 10px;
+  background-color: rgb(109, 211, 109);
+  margin-bottom: 0;
+}
+
+.order-success {
+  height: 60px;
+  width: 80px;
+}
+
+.admin-btn {
+  margin-left: 20px;
+  margin-top: 100px;
+  width: 100px;
+}
+
+.add-product-form {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.bulk-upload {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  border: 2px solid gray;
+  padding: 30px;
+}
+
+
+
+.login-form{
+
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  width: 40%;
+ 
+  border: 2px solid #343a40;
+}
+
+
+.my-radio{
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.state-img{
+  width: 60%;
+  height: 50%;
+}
